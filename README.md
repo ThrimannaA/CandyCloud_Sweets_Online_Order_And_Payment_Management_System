@@ -152,7 +152,7 @@ A full-stack e-commerce web application for a sweet shop that enables customers 
 
 📧 Contact
 - Anuji Thrimanna
-- Email: thrimanna2000@gmail.com
+- Linkedin: https://www.linkedin.com/in/anuji-thrimanna-6389392a9/
 
 ## Demo Video
 
