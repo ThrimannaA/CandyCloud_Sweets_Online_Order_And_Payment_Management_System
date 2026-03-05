@@ -40,59 +40,6 @@ A full-stack e-commerce web application for a sweet shop that enables customers 
        ↓
 [Payment Processing]
 
-🚀 Installation & Setup
-Prerequisites
-Node.js (v14+)
-
-MongoDB (local or Atlas)
-
-Stripe account (for payment processing)
-
-Backend Setup
-Clone the repository
-
-
-git clone https://github.com/ThrimannaA/CandyCloud_Sweets_Online_Order_And_Payment_Management_System.git
-cd CandyCloud_Sweets_Online_Order_And_Payment_Management_System
-Install backend dependencies
-
-
-cd backend
-npm install
-Create environment file
-
-
-# Create .env file in backend directory
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/candycloud
-JWT_SECRET=your_jwt_secret_key_here
-STRIPE_SECRET_KEY=your_stripe_secret_key_here
-Start backend server
-
-npm start
-# Server runs on http://localhost:5000
-Frontend Setup
-Navigate to frontend directory
-
-
-cd ../frontend
-Install frontend dependencies
-
-
-npm install
-Create environment file
-
-
-# Create .env file in frontend directory
-VITE_API_URL=http://localhost:5000/api
-VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key_here
-Start frontend development server
-
-npm run dev
-
-# App runs on http://localhost:5173
-
-
 💡 Key Features Explained
 
 - User Authentication
@@ -190,28 +137,15 @@ npm run dev
   - POST /api/payments/webhook - Stripe webhook handler
 
 🚦 Running Tests
-bash
+
 # Backend tests
-cd backend
-npm test
+- cd backend
+- npm test
 
 # Frontend tests
-cd frontend
-npm test
+- cd frontend
+- npm test
 
-📦 Deployment
-
-Backend Deployment (Render/Heroku)
-bash
-# Set environment variables on hosting platform
-MONGODB_URI=production_mongodb_uri
-JWT_SECRET=production_jwt_secret
-STRIPE_SECRET_KEY=production_stripe_key
-Frontend Deployment (Vercel/Netlify)
-bash
-# Set environment variables
-VITE_API_URL=production_backend_url
-VITE_STRIPE_PUBLIC_KEY=production_stripe_public_key
 
 📝 License
 - This project is for educational and portfolio purposes.
